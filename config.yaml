@@ -12,7 +12,7 @@ languages:
 
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: eliatolin
 
 # GA Tracking ID
 googleAnalytics:
@@ -164,7 +164,7 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto
+        default: light
 
     imageProcessing:
         cover:
@@ -177,19 +177,30 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main: []
-
     social:
         - identifier: github
           name: GitHub
           url: https://github.com/EliaTolin
           params:
-              icon: brand-github
+            icon: github
 
         - identifier: linkedin
           name: Linkedin
           url: https://linkedin.com/in/eliatolin
           params:
-              icon: brand-linkedin
+            icon: linkedin
+
+        - identifier: telegram
+          name: Telegram
+          url: https://t.me/EliaTolin
+          params:
+            icon: telegram-2
+
+        - identifier: email
+          name: Email
+          url: mailto:elia.tolin@auroradigital.it
+          params:
+            icon: email
 
 related:
     includeNewer: true
