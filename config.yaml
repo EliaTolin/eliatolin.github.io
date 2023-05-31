@@ -1,5 +1,5 @@
 baseurl: https://example.com
-languageCode: en-us
+languageCode: it
 paginate: 5
 title: Elia Tolin
 
@@ -136,10 +136,6 @@ params:
             id:
     widgets:
         homepage:
-            - type: search
-            - type: archives
-              params:
-                  limit: 5
             - type: categories
               params:
                   limit: 10
