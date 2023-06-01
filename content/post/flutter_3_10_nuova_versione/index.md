@@ -17,7 +17,7 @@ categories:
 
 - Flutter
 
-date: 2023-05-02
+date: 2023-05-10
 
 image: "https://www.auroradigital.it/wp-content/uploads/2023/05/image-1-1024x576.png"
 
