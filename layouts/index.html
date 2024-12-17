@@ -1,1 +1,68 @@
-Magari un giorno sarà il sito biografia di un grande imprenditore, boh. Ti tengo aggiornato
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elia Tolin</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      color: #222;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .line {
+      width: 50px;
+      height: 3px;
+      background-color: #0078D4;
+      margin: 1.5rem auto;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Elia Tolin</h1>
+    <div class="line"></div>
+    <p>Magari un giorno sarà il sito biografia di un grande imprenditore, boh.<br> Speriamo</p>
+  </div>
+</body>
+</html>
